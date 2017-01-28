@@ -1,0 +1,6 @@
+git pull : recup le truc sur le serv
+git status : voir les fichier modif en local
+git add . : ajouter tout les fichiers modif au commit
+git commit -m "message de commit" (pas mettre jeej ou saas ou fromage la prof va sans doute regarder)
+git push : envoie les commit sur le serv 
+git log : historique des commit
