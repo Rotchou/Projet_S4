@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/pierre/CLionProjects/Projet_S4/src/Connexion.cpp">
+			<Option target="ProjetS4"/>
+		</Unit>
+		<Unit filename="/home/pierre/CLionProjects/Projet_S4/src/Connexion.h">
+			<Option target="ProjetS4"/>
+		</Unit>
 		<Unit filename="/home/pierre/CLionProjects/Projet_S4/src/main.cpp">
 			<Option target="ProjetS4"/>
 		</Unit>

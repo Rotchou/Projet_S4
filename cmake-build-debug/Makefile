@@ -123,6 +123,33 @@ ProjetS4/fast:
 	$(MAKE) -f CMakeFiles/ProjetS4.dir/build.make CMakeFiles/ProjetS4.dir/build
 .PHONY : ProjetS4/fast
 
+src/Connexion.o: src/Connexion.cpp.o
+
+.PHONY : src/Connexion.o
+
+# target to build an object file
+src/Connexion.cpp.o:
+	$(MAKE) -f CMakeFiles/ProjetS4.dir/build.make CMakeFiles/ProjetS4.dir/src/Connexion.cpp.o
+.PHONY : src/Connexion.cpp.o
+
+src/Connexion.i: src/Connexion.cpp.i
+
+.PHONY : src/Connexion.i
+
+# target to preprocess a source file
+src/Connexion.cpp.i:
+	$(MAKE) -f CMakeFiles/ProjetS4.dir/build.make CMakeFiles/ProjetS4.dir/src/Connexion.cpp.i
+.PHONY : src/Connexion.cpp.i
+
+src/Connexion.s: src/Connexion.cpp.s
+
+.PHONY : src/Connexion.s
+
+# target to generate assembly for a file
+src/Connexion.cpp.s:
+	$(MAKE) -f CMakeFiles/ProjetS4.dir/build.make CMakeFiles/ProjetS4.dir/src/Connexion.cpp.s
+.PHONY : src/Connexion.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProjetS4"
+	@echo "... src/Connexion.o"
+	@echo "... src/Connexion.i"
+	@echo "... src/Connexion.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
